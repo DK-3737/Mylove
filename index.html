@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For The Girl I Love  💜</title>
+    <title>LOve youuuuu!!</title>
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<!-- ===== CINEMATIC BIRTHDAY INTRO ===== -->
+<div id="birthdayIntro" class="birthday-intro">
+    <canvas id="birthdayCanvas"></canvas>
+    <div class="intro-vignette"></div>
+
+    <div class="intro-moon" aria-hidden="true">
+        <div class="moon-crater crater-one"></div>
+        <div class="moon-crater crater-two"></div>
+        <div class="moon-crater crater-three"></div>
+    </div>
+
+    <div class="intro-orbit orbit-one"></div>
+    <div class="intro-orbit orbit-two"></div>
+
+    <div class="intro-content">
+        <div class="intro-topline">✦ A LITTLE GIFT MADE JUST FOR YOU ✦</div>
+
+        <div id="introOrb" class="intro-heart-wrap" role="button" tabindex="0"
+             aria-label="Start the birthday magic">
+            <div class="heart-aura"></div>
+            <div class="heart-ring ring-a"></div>
+            <div class="heart-ring ring-b"></div>
+            <div class="intro-big-heart">♥</div>
+            <div class="heart-spark spark-one">✦</div>
+            <div class="heart-spark spark-two">✧</div>
+            <div class="heart-spark spark-three">♡</div>
+            <div class="heart-spark spark-four">✦</div>
+        </div>
+
+        <div class="intro-scene-number">
+            <span id="introSceneNumber">01</span> / <span id="introSceneTotal">06</span>
+        </div>
+
+        <h1 id="introTitle">Hey, my berry...</h1>
+        <p id="introText">
+            Before you enter our little world, I made one tiny piece of magic for you.
+        </p>
+
+        <div class="intro-progress">
+            <span id="introProgressBar"></span>
+        </div>
+
+        <button id="startMagicBtn" class="intro-main-btn">
+            <span>Open-----Open</span> <b>✦</b>
+        </button>
+
+        <button id="skipIntroBtn" class="intro-skip-btn">Skip intro</button>
+    </div>
+
+    <div id="introContinue" class="intro-continue">
+        <div class="continue-glow"></div>
+        <button id="enterStoryBtn" class="intro-enter-btn">
+            Enter Our Story <span>→</span>
+        </button>
+    </div>
+
+    <div class="intro-corner corner-left">♡</div>
+    <div class="intro-corner corner-right">✦</div>
+</div>
+<!-- ===== END CINEMATIC BIRTHDAY INTRO ===== -->
+
+
+
+<!-- =================================================
+                    BACKGROUND
+================================================= -->
+
+<div class="night-sky">
+
+    <div class="moon"></div>
+
+    <div class="stars"></div>
+
+    <div class="cloud cloud-one"></div>
+    <div class="cloud cloud-two"></div>
+
+</div>
+
+
+<div class="cursor-glow"></div>
+
+
+
+<!-- =================================================
+                    PAGE 1 LOGIN
+================================================= -->
+
+<!-- =================================================
+                    PAGE 1 LOGIN
+================================================= -->
+
+<section id="loginPage"
+         class="page login-page">
+
+
+    <div class="login-decoration decoration-one">
+        ✦
+    </div>
+
+    <div class="login-decoration decoration-two">
+        ✧
+    </div>
+
+    <div class="login-decoration decoration-three">
+        ♡
+    </div>
+
+
+    <!-- Rapunzel -->
+
+    
+
+
+    <!-- LOGIN BOX -->
+
+    <div class="login-box">
+
+
+        <div class="login-top-icon">
+            ♡
+        </div>
+
+
+        <p class="tiny-heading">
+
+            A little gift by mee !!
+
+        </p>
+           
+
+        <h1>
+
+            Just For You my berryy!
+
+        </h1>
+
+
+        <div class="gold-line"></div>
+
+
+        <p class="login-description">
+
+            I'll be with you always and foreverr.
+            <br><br>
+
+            ``Love youu a lottttt and lotttt``
+
+            <br><br>
+
+             Are YOu readY? 💜
+
+        </p>
+
+
+        <div class="input-container">
+
+            <span>♡</span>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Our username">
+
+        </div>
+
+
+        <div class="input-container">
+
+            <span>✦</span>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Our secret">
+
+        </div>
+
+
+        <button class="gold-button"
+                onclick="login()">
+
+            <span>
+                Unlock Our Story
+            </span>
+
+            <b>→</b>
+
+        </button>
+
+
+        <p id="loginError"></p>
+
+
+        <p class="login-hint">
+
+            Hint: Our secret 
+            special-word✨
+
+        </p>
+
+
+    </div>
+
+
+    <!-- Eugene -->
+
+
+    <div class="scroll-indicator">
+
+        <span></span>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =================================================
+                    PAGE 2 WELCOME
+================================================= -->
+
+<section id="welcomePage"
+         class="page">
+
+
+    <div class="page-number">
+        01 / 06
+    </div>
+
+
+    <div class="welcome-wrapper">
+
+
+        <p class="chapter-label">
+        </p>
+
+
+        <h1 class="hero-title">
+
+            Happy Birthday,
+
+            <span>
+                My love . 💜
+            </span>
+
+        </h1>
+
+
+        <div class="gold-line"></div>
+
+
+        <p class="hero-description">
+
+            Love youu a lottttt and lotttt. ♡
+
+            <br><br>
+
+             Honestly...
+
+            <br>
+
+            <b>
+                You are the best gift for me !
+            </b>
+
+            <br><br>
+
+            En life-la nee enakku kedacha best thing.
+            kedacha best ne mattu than actually. ♡
+        </p>
+
+
+        <div class="floating-characters">
+
+
+            <div class="character-3d tilt-card">
+
+                <div class="character-light"></div>
+
+                <img src="images\1.jpg">
+
+                <div class="character-label">
+
+                    W....y......F!
+
+                    <span>
+                        ✦
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="character-3d tilt-card">
+
+                <div class="character-light"></div>
+
+                <img src="images\2.jpg">
+
+                <div class="character-label">
+
+                    Mine!!
+
+                    <span>
+                        ♡
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="quote-box">
+
+            <span class="quote-symbol">
+                “
+            </span>
+
+            <p>
+
+                "Some people enter your life
+                and quietly become your home."
+
+            </p>
+
+            <span class="quote-symbol bottom">
+                ”
+            </span>
+
+        </div>
+
+
+        <button onclick="showPage('journeyPage')"
+                class="continue-button">
+
+            Let's Begin
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+                    PAGE 3 JOURNEY
+================================================= -->
+
+<section id="journeyPage"
+         class="page">
+
+
+    <div class="page-number">
+        02 / 06
+    </div>
+
+
+    <div class="content-width">
+
+
+        <p class="chapter-label">
+            CHAPTER TWO
+        </p>
+
+
+        <h1 class="section-title">
+            Our Journey
+        </h1>
+
+
+        <p class="section-subtitle">
+            Love nu irutha ellame irukanum lyk fights,misunderstandings athu understanding la unna sollave vena but 
+            <br>
+
+        Namba love la ethu nadandhaalum,love irukanum 
+            neraya love shouldnot decrease!!. ♡
+
+        </p>
+
+
+        <div class="journey-line"></div>
+
+
+        <div class="journey">
+
+
+            <!-- ITEM 1 -->
+
+            <div class="journey-item">
+
+                <div class="journey-number">
+                    01
+                </div>
+
+
+                <div class="journey-content">
+
+            
+                    <h2>
+                        THE BEGINNING
+                    </h2>
+                    <p>
+                        First namba startinglaye neraiya prechana vanthuchu,
+                    </p>
+
+                    <p>
+
+                        Appo pesum pothu therla summa poidum nenachen but nambalthu vera nu 
+                        therijuthuchu ,konjo konjo ma close aanom!
+
+                        <br><br>
+
+                        But slowly...
+
+                        <br>
+
+                        Un messages wait pannen nanu ,b4 ipdi iruthathu illa yartayum but somehow happened
+
+                        <br>
+
+                        Also I realized that I really like you.
+                    </p>
+
+
+                    <div class="journey-quote">
+
+                        "Sometimes the smallest
+                        beginnings create the
+                        biggest stories."
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 2 -->
+
+            <div class="journey-item reverse">
+
+                <div class="journey-number">
+                    02
+                </div>
+
+
+                <div class="journey-content">
+
+                    <span>
+                        SOMEWHERE ALONG THE WAY
+                    </span>
+
+                    <h2>
+                        You became my favourite person.
+                    </h2>
+
+                    <p>
+
+                        Oru point-ku aprom,
+                        enakku edhu nadandhaalum ethachuna un thought mind ku vanthuchu,na kiss kuduthathe sollirupen evolo spcl nu
+                        but appo kuda lasting aa iruku ethir paakal nanu honestly..
+                        
+
+                        <br><br>
+                        <br>
+
+                        Lyk ethachu imp na en mind ku vantha nee ,enakku en nu thrla.
+
+                        <br><br>
+
+                        Appo dhaan konjo realize pannen 
+
+                        <br>
+
+                        <b>
+                            "I really love this girl"nu
+                        </b>
+
+                    </p>
+
+
+                    <div class="journey-quote">
+
+                        "I didn't plan on falling for you.
+                        I just did."
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 3 -->
+
+            <div class="journey-item">
+
+                <div class="journey-number">
+                    03
+                </div>
+
+
+                <div class="journey-content">
+
+                    <span>
+                        NOW
+                    </span>
+
+                    <h2>
+                        For now and forever you are my everything!
+                    </h2>
+
+                    <p>
+
+                        Nee share panrathu pudikum nanu st panniten ippo,
+                        every small moment-um  solla aaramichute nanu as like u .
+                        Ne avolo imp aagita paapa .
+
+                        <br><br>
+                        <br>
+
+                        Namma random conversations.
+                        athu ippo unna taste panrathula na expect pannala ana i love it totally
+                        becoz enna oru ponnu ivolo nambi ella accept panra.
+                        En marriage panniko nu kekura ennala athuvum, superr thana athu enakuu
+
+                        <br><br>
+
+                        I just dont need a perfect relationship.
+
+                        <br>
+
+                        <b>
+                            "I just want you."athu perfect aa iruku nu hope iruku..
+                        </b>
+
+                    </p>
+
+
+                    <div class="journey-quote">
+
+                        "I don't need a perfect story.
+                        I just want ours."
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="navigation">
+
+            <button onclick="showPage('welcomePage')">
+                ← Back
+            </button>
+
+            <button onclick="showPage('memoriesPage')">
+                Our Memories →
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+                    PAGE 4 MEMORIES
+================================================= -->
+
+<section id="memoriesPage"
+         class="page">
+
+
+    <div class="page-number">
+        03 / 06
+    </div>
+
+
+    <div class="content-width">
+
+
+        <p class="chapter-label">
+            CHAPTER THREE
+        </p>
+
+
+        <h1 class="section-title">
+            Little Pieces of Us
+        </h1>
+
+
+        <p class="section-subtitle">
+
+         Our little memeories !!
+
+            <br>
+
+            they're everything. ♡
+            Further more lets create more and more memories together.okayy
+
+        </p>
+
+
+        <div class="memories-grid">
+
+
+            <!-- MEMORY 1 -->
+
+            <div class="memory-card tilt-card">
+
+                <div class="memory-image">
+
+                    <img src="images\3.png"
+                         alt="Memory">
+
+                    <div class="memory-number">
+                        01
+                    </div>
+
+                </div>
+
+
+                <div class="memory-info">
+
+                    <small>
+                        A LITTLE MOMENT
+                    </small>
+
+                    <h2>
+                        That lips(myy stawberryy)
+                    </h2>
+
+                    <p>
+
+                        "Un lips superr aa irukum nee smile pannum pothu inno ayyo
+                        perfectly made for mee."
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MEMORY 2 -->
+
+            <div class="memory-card tilt-card">
+
+                <div class="memory-image">
+
+                    <img src="images\4.png"
+                         alt="Memory">
+
+                    <div class="memory-number">
+                        02
+                    </div>
+
+                </div>
+
+
+                <div class="memory-info">
+
+                    <small>
+                        JUST US
+                    </small>
+
+                    <h2>
+                        Our space
+                    </h2>
+
+                    <p>
+
+                        "Namma rendu perum
+                        pesura small conversations-la enakku sandayum iruthalum 
+                        kovo varum but pudikum naraiya tym..
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MEMORY 3 -->
+
+            <div class="memory-card tilt-card">
+
+                <div class="memory-image">
+
+                    <img src="images\she.jpg"
+                         alt="Memory">
+
+                    <div class="memory-number">
+                        03
+                    </div>
+
+                </div>
+
+
+                <div class="memory-info">
+
+                    <small>
+                        FAVOURITE
+                    </small>
+
+                    <h2>
+                        You
+                    </h2>
+
+                    <p>
+
+                        "Unna vida yaarum imp illa iruthalum venam enakku."
+                        You are the only one I want !! ♡
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MEMORY 4 -->
+
+            <div class="memory-card tilt-card">
+
+                <div class="memory-image">
+
+                    <img src="images\6.jpg"
+                         alt="Memory">
+
+                    <div class="memory-number">
+                        04
+                    </div>
+
+                </div>
+
+
+                <div class="memory-info">
+
+                    <small>
+                        ANOTHER DAY
+                    </small>
+
+                    <h2>
+                        With You
+                    </h2>
+
+                    <p>
+
+                        "Anywhere is my favourite
+                        place if you're there."
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MEMORY 5 -->
+
+            <div class="memory-card tilt-card">
+
+                <div class="memory-image">
+
+                    <img src="images\7.jpg"
+                         alt="Memory">
+
+                    <div class="memory-number">
+                        05
+                    </div>
+
+                </div>
+
+
+                <div class="memory-info">
+
+                    <small>
+                        US
+                    </small>
+
+                    <h2>
+                        You & Me
+                    </h2>
+
+                    <p>
+
+                        "Im there for as always."
+                        My ownerrr``
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MEMORY 6 -->
+
+            <div class="memory-card tilt-card">
+
+                <div class="memory-image">
+
+                    <img src="images\8.png"
+                         alt="Memory">
+
+                    <div class="memory-number">
+                        06
+                    </div>
+
+                </div>
+
+
+                <div class="memory-info">
+
+                    <small>
+                        NOT THE END
+                    </small>
+
+                    <h2>
+                        More To Come
+                    </h2>
+
+                    <p>
+
+                        "Idhu varaikkum ivlo memories.
+
+                        <br>
+
+                        Innum neraya venum enakku nammakku."
+                        as per ur choice ,un kaal laye iruken.
+                         ♡
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="memory-ending">
+
+            <span>
+                ✦
+            </span>
+
+            These are only a few.
+
+            <br>
+
+            En love stry nu solratha vida namma nu sollum pothu nalla iruku
+            innum naraiya create pannalam babes.also as h&w ur choice....
+
+            <span>
+                ✦
+            </span>
+
+        </div>
+
+
+        <div class="navigation">
+
+            <button onclick="showPage('journeyPage')">
+                ← Journey
+            </button>
+
+            <button onclick="showPage('letterPage')">
+                My Letter →
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+                    PAGE 5 LETTER
+================================================= -->
+
+<section id="letterPage"
+         class="page">
+
+
+    <div class="page-number">
+        04 / 06
+    </div>
+
+
+    <div class="content-width">
+
+
+        <p class="chapter-label">
+            CHAPTER FOUR
+        </p>
+
+
+        <h1 class="section-title">
+            From My Heart to Yours!
+        </h1>
+
+
+        <p class="section-subtitle">
+
+          Already solliten thonrathula but inno konjo sollanum thonuchu so one extra page for you 
+          inga irukathu may be already sollirupen silathu !!
+
+        </p>
+
+
+        <div class="love-letter">
+
+
+            <div class="letter-top">
+                ♡
+            </div>
+
+
+            <p class="letter-greeting">
+                My ownerr +everything,
+            </p>
+
+
+            <p>
+
+                First of all...
+
+                <br><br>
+
+                <b>
+                    Happy Birthday to you my love  . ❤️
+                </b>
+
+            </p>
+
+
+            <p>
+
+                Naan enna feel panren-nu
+                sometimes words-la sollave mudiyadhu.
+
+                <br>
+
+                Avolo miss pannuven unna sometimes nee kuda guess pannuva ana na accept pannika maaten eppoyume.
+                aprom 1/4 scene podum.summave ivolo periya vana kaal vila vekkura nee ana prvla unthunu nenachu panrala enta 
+                yaarum antha space eduthuka maatanga kudukavum maaten,but nee panna ok ur spcl.Unna mattu en puduchuthu thrla but puduchuruchu Enakku avolotha.think so may be that's the reason why I can't change the way I'm with you!
+Enna porutha varaikum lyf la oru love Olunga pannanum nenaikuren Athuvum unkuda mattu.To fullfill that I'm ready to face any situation..Anything for youu!!
+
+
+            </p>
+
+
+            <p>
+
+             Actually lyf la ipdi irukanum nu yosika vechuta nee ennaya,thaniya ve iruka mudiyathunu enayum yosika vechuta 
+             witchh,un kuda irukanum thona vechuta enakkum athu tha venum,evolo vena sry kekuren unta athukaga..enna vena pannuven>
+
+
+
+                <br><br>
+
+                But somehow...
+
+                <br>
+
+                <b>
+                    everything became more meaningful.
+                </b>
+
+            </p>
+
+
+            <div class="big-love-line">
+
+                Unna mattu en puduchuthu thrla but puduchuruchu Enakku avolotha.
+                think so may be that's the reason why I can't change the way I'm with you!
+                Enna porutha varaikum lyf la oru love Olunga pannanum nenaikuren Athuvum unkuda mattu.To fullfill that I'm ready to face any situation..
+                <br><br>
+                Choosing you and loving you
+                is a choice I want
+                to make every day."
+
+            </div>
+
+
+            <p>
+
+                Unakku onnu sollikuren enna aanalum enna vitratha kovo paduren nu seriya
+                evolo kovonalum unna vida mudila 
+                which ive realized many time recentlyy.
+                <br><br>
+
+                Nee upset-a irundhaalum,
+
+                <br>
+
+                nee kovama irundhaalum,
+
+                <br>
+
+                namakku misunderstanding vandhaalum,
+
+                <br>
+
+                things difficult-a irundhaalum...
+
+            </p>
+
+
+            <p class="strong-text">
+
+                I promise that I wont leave you .And also Ill do everthing u ask which i can..
+
+            </p>
+             We just need eachother to survive in the forecoming days- (My thought)
+                          share ur thought for ts?
+
+            <p>
+
+                Problems vandha,
+                solve panna try pannanum.
+                seriya na tha pesa maate but kuda irukum pothu solren chellame..
+
+                <br><br>
+
+                Distance vandha,
+                close aagikalam.
+
+                <br><br>
+
+                Tough days vandha,
+                rendu perum serndhu cross pannalam nee irupa nu nambika iruku.
+                Namba rendu per nalla pair actuallyy
+                Nee enna rombo love panra actually im luckyy to have youu as my ......
+            <p>
+
+                Enakku
+                "perfect relationship"
+                venum nu illa.
+
+                <br><br>
+
+                <b>
+                    Enakku nee venum ,nee mattum!!
+                </b>
+
+            </p>
+
+
+            <div class="tanglish-love">
+
+
+                <span>
+                    ♥
+                </span>
+
+
+                <p>
+
+                    Enta ellathayum open sollu .I'm there for you Ithey maari kuda sollu illa call la nerla.. fulla illanum ipdi pathi aachu sollu enta tha solra onnu thappu illa sollalam 
+Ellame enta sollanum thonuchuna mattum!!
+
+
+As always I love you so muchhhhhhhhhhhhhhhhh ♥️.
+Miss you a lot and lot♾️💞
+My🍓🍓
+
+                </p>
+
+
+                <p>
+
+                    
+
+                </p>
+
+
+                <p>
+
+                  Rmbo miss panna vekkura d enna seri illa ,kuda irukanumla thona vechuta innu vekkura 
+                  enna feel la panna vekkura 1/4witchhh
+
+                </p>
+
+
+                <p>
+
+                    And honestly...
+                         Unna vida enakku
+                        
+                         important-a ippo yaarum illa enakku unakku apditha irukanum solliten.
+
+
+                </p>
+
+
+            </div>
+
+                <br><br>
+
+                <b>
+                    I want you in my life!! for suree
+                </b>
+
+            </p>
+
+
+            <p>
+
+                Innum neraya birthdays onnave celeb pannanum namba pannuvom kandippa!
+                <br><br>
+
+                Innum neraya memories create pannanum.
+
+                <br><br>
+
+                Innum neraya times
+                unna sirikka vekkanum,nee enna tempt aakanum,mind refresh panna naraiya pannalam,rendu per mattum..
+
+            </p>
+
+
+            <p>
+
+                And most importantly...
+
+                <br><br>
+
+                <b>
+                    Love you my chlm
+                    love you my berryy
+                    love you my everthing lottt and lottttt.
+                </b>
+                Always.
+
+            </p>
+
+
+            <div class="letter-sign">
+
+              ---- By your Loved
+
+                    person(ur eugene/hubby)who loves you
+                                              more than he knows how to say. ♡
+
+            </div>
+
+
+        </div>
+
+
+        <div class="navigation">
+
+            <button onclick="showPage('memoriesPage')">
+                ← Memories
+            </button>
+
+            <button onclick="showPage('futurePage')">
+                Our Future →
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+                    PAGE 6 FUTURE
+================================================= -->
+
+<section id="futurePage"
+         class="page">
+
+
+    <div class="page-number">
+        05 / 06
+    </div>
+
+
+    <div class="content-width">
+
+
+        <p class="chapter-label">
+            CHAPTER FIVE
+        </p>
+
+
+        <h1 class="section-title">
+
+            Still there're Much more things.
+            More chapters............
+
+        </h1>
+
+
+        <div class="gold-line"></div>
+
+
+        <p class="section-subtitle">
+
+            Our love and our stry,lyf  doen't ends here!
+
+            <br><br>
+
+            Actually...
+
+            <br>
+
+            <b>
+                This is a just beginning.
+            </b>
+
+        </p>
+
+
+        <div class="future-cards">
+
+
+            <div class="future-card">
+
+                <span>
+                    ♡
+                </span>
+
+                <h2>
+                    More Memories
+                </h2>
+
+                <p>
+
+                    Innum neraya
+                    random photos.
+
+                </p>
+
+            </div>
+
+
+            <div class="future-card">
+
+                <span>
+                    ✦
+                </span>
+
+                <h2>
+                    More Adventures
+                </h2>
+
+                <p>
+
+                    Places we've never
+                    been together.
+
+                </p>
+
+            </div>
+
+
+            <div class="future-card">
+
+                <span>
+                    ∞
+                </span>
+
+                <h2>
+                    More Time
+                </h2>
+
+                <p>
+
+                    More normal days
+                    with you.
+
+                </p>
+
+            </div>
+            <div class="future-card">
+
+                <span>
+                    ∞
+                </span>
+
+                <h2>
+                  Tasting you 
+                </h2>
+
+                <p>
+
+                     More tasting and 
+                     Everything doing with youu~!!
+
+                </p>
+
+            </div>
+            <div class="future-card">
+
+                <span>
+                    ∞
+                </span>
+
+                <h2>
+                  Licking You
+                </h2>
+
+                <p>
+
+                     My most fav part licking and sucking every parts of urs(mine)!
+
+                </p>
+                </div>
+
+
+        </div>
+
+
+        <div class="marriage-box">
+
+
+            <small>
+                ONE DAY...
+            </small>
+
+
+            <h2>
+
+                I Hope I Get To Say u Next year!!
+
+            </h2>
+
+
+            <h1>
+
+                "My Wifee." 💍
+
+            </h1>
+
+
+            <div class="gold-line"></div>
+
+
+            <p>
+
+                Naan perfect future
+                promise panna mudiyadhu.
+
+                <br><br>
+
+                But one thing I can say...
+
+                <br><br>
+
+                If we are together,we will have a lovable future of ours..
+                Also life la namba luv,lust,emotions everything should be shared between us only uss!
+
+                <br><br>
+
+                <b>
+                    I'll choose you at my every lyftime!
+                </b>
+
+            </p>
+
+
+            <p>
+               Nee keta maari unna marraige pannikuren nanu,nxt yr ee enakku 100/okayy unkuda na 
+               en na enakku puducha maari ne iruka nanu irupen un kaal kilaye,centerlayum hehehe,
+               ready ya iruthuko enna manage panna ,revenge la eduthuko epdi vena all yours.Love youuu my ....!
+                             
+            </p>
+
+
+            <p class="marriage-quote">
+
+                "I just don't want a normal married life
+
+                <br>
+
+                I want romanticizing life 
+                with you onlyy youu!
+
+            </p>
+
+
+            <button onclick="showProposal()"
+                    class="proposal-button">
+
+                One Last Thing... 💍
+
+            </button>
+
+
+            <div id="proposalMessage">
+
+
+                <div class="ring-animation">
+                    💍
+                </div>
+
+
+                <h2>
+
+                    If I could choose
+                    my person again...
+
+                </h2>
+
+
+                <p>
+
+                    I'd still choose you.
+
+                    <br><br>
+
+                    Again.
+
+                    <br>
+
+                    And again.
+
+                    <br>
+
+                    And again.
+            Im surrendering my life to youu till my end, whole heartedly!
+
+                </p>
+
+
+                <div class="heart-line">
+                    ♥ ♥ ♥
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="navigation">
+
+            <button onclick="showPage('letterPage')">
+                ← Letter
+            </button>
+
+            <button onclick="showPage('finalPage')">
+                Final Chapter →
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================================
+                    PAGE 7 FINAL
+================================================= -->
+
+<section id="finalPage"
+         class="page final-page">
+
+
+    <div class="final-stars"></div>
+
+
+    <div class="final-content">
+
+
+        <p class="chapter-label">
+            THE FINAL CHAPTER
+        </p>
+
+
+        <div class="final-heart">
+            ♥
+        </div>
+
+
+        <h1>
+
+            Happy Birthday,
+
+            <span>
+                My paapa. 💜
+            </span>
+
+        </h1>
+
+
+        <div class="gold-line"></div>
+
+
+        <div class="final-quote">
+
+            "I don't need a perfect life.
+
+            <br>
+
+            I just want a life
+            where I get to love you."
+
+        </div>
+
+
+        <div class="final-card">
+
+
+            <p>
+
+                Today is  ur bday unkuda illa prvla
+
+                <br><br>
+
+                But next yr la iruthu onna celebrate pannuvom okayy?.
+                athuku aprom fulla onna irukalam kandiipa irukanumseriya 
+                love you soo muchh tastyy girlll
+                my tastyy girllll! heehehe 
+                unna fulla taste pannuven kandippa chance kedacha witchhh!
+
+            </p>
+
+
+            <div class="final-highlight">
+
+                I just want to love you,
+                understand you,
+                and stay beside you.
+
+            </div>
+            <p>
+
+                Life easy-a irundhaalum...
+
+                <br>
+
+                Life difficult-a irundhaalum...
+
+                <br>
+                Life epdi iruthalum
+                <br>
+                 
+                <b>
+                    I want us only uss..
+
+                </b>
+
+            </p>
+
+
+            <h2>
+
+                I lovee youuu soooo muchhhh!
+
+            </h2>
+
+
+            <p>
+                 Evolo tym sonnalum its not enough for 
+                 me.You mean a lot for me!!
+                
+
+            </p>
+            <b>Everything mine is urs and everything urs is mine after we get married..
+                
+            </b>
+
+
+            <div class="final-divider">
+                ✦
+            </div>
+
+
+            <p>
+
+                Happy Birthday to
+                my favourite girl.
+
+                <br><br>
+
+                My comfort.
+
+                <br>
+
+                My happiness.
+
+                <br>
+
+                My favourite person.
+
+                <br><br>
+
+                And hopefully...
+
+                <br>
+
+                My forever.
+                
+
+            </p>
+
+
+            <div class="forever">
+
+                ♡ FOREVER ♡
+
+            </div>
+
+
+        </div>
+
+
+        <button onclick="showPage('welcomePage')"
+                class="continue-button">
+
+            Start From The Beginning ↻
+
+        </button>
+
+
+        <p class="made-with-love">
+
+            Made by yours.
+
+            <br>
+
+            This may be Not perfect.
+
+            <br>
+
+            But made with all my love,
+            especially for you. ♡
+
+        </p>
+
+
+    </div>
+
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
