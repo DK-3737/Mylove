@@ -28,7 +28,7 @@
 
         const scenes = [
             {
-                title: "Hey, my o w n e r r...",
+                title: "You are Myy entire life",
                 text: "Before you enter our little world, I made one tiny piece of magic for you."
             },
             {
